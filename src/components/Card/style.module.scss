@@ -1,0 +1,19 @@
+.wrapper {
+    width: 30em;
+    height: 5em;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 550px) {
+    .wrapper {
+        width: 80vw;
+    }
+}
